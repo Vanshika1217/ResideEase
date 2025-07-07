@@ -15,6 +15,7 @@ import PGDetailPage from "./pages/PGDetails";
 import Booking from "./pages/BookingConfirmed";
 import BookNow from "./pages/BookNow";
 
+
 // import Xo from "./pages/Xo";
 import AddItem from "./components/AddItem";
 import AddUser from "./components/AddUser";
@@ -24,6 +25,7 @@ import ProfilePage from "./pages/ProfilePage.jsx"
 import FetchBookings from "./components/FetchBookings.jsx";
 import CancelBookings from "./components/CancelBookings.jsx";
 import BookPG from "./pages/PGbook";
+import UPIPayment from "./pages/UPIPayment.jsx";
 
 function App() {
   return (
@@ -54,6 +56,7 @@ function App() {
           <Route path="/admin/fetchUsers" element={<FetchUsers />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/pgnow" element={<BookPG />} />
+          <Route path="/payment" element={<UPIPayment/>}/>
 
 
           
