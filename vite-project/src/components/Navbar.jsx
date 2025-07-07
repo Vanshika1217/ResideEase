@@ -32,6 +32,7 @@ const Navbar = ({ admin }) => {
               <Link to="/profile" className="hover:text-gray-400 transition">Profile</Link>
               <Link to="/listings" className="hover:text-gray-400 transition">Listings</Link>
               <Link to="/contact" className="hover:text-gray-400 transition">Contact</Link>
+              <Link to="/chat" className="hover:text-gray-400 transition">Chat</Link> {/* ✅ Chat Link */}
             </>
           )}
 

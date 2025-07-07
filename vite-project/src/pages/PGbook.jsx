@@ -54,7 +54,15 @@ const BookPG = () => {
     };
 
     console.log("Booking Data:", booking);
-    navigate("/pg-booking-confirmed", { state: formData });
+
+    // Navigate to UPI payment screen with payment data
+    navigate("/pg-upi-payment", {
+      state: {
+        user: { name: "ResideEase Pvt Ltd", upiId: "resideease@upi" },
+        amount: booking.totalRent,
+        formData: { ...formData, pgName: pgDetails.pgName },
+      },
+    });
   };
 
   return (

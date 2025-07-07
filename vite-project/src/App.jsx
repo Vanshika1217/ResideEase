@@ -15,7 +15,7 @@ import PGDetailPage from "./pages/PGDetails";
 import Booking from "./pages/BookingConfirmed";
 import BookNow from "./pages/BookNow";
 
-
+import ChatApp from "./components/ChatApp.jsx";
 // import Xo from "./pages/Xo";
 import AddItem from "./components/AddItem";
 import AddUser from "./components/AddUser";
@@ -26,7 +26,8 @@ import FetchBookings from "./components/FetchBookings.jsx";
 import CancelBookings from "./components/CancelBookings.jsx";
 import BookPG from "./pages/PGbook";
 import UPIPayment from "./pages/UPIPayment.jsx";
-
+import PGBookingConfirmed from "./pages/PGBookingConfirmed.jsx";
+import PGUPIPayment from "./pages/PGUPIPayment"; 
 function App() {
   return (
     <>
@@ -57,8 +58,9 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/pgnow" element={<BookPG />} />
           <Route path="/payment" element={<UPIPayment/>}/>
-
-
+<Route path='/chat' element ={<ChatApp/>}/>
+<Route path="/pg-booking-confirmed" element={<PGBookingConfirmed />} />
+<Route path="/pg-upi-payment" element={<PGUPIPayment />} />
           
         </Routes>
      </FetchProvider>

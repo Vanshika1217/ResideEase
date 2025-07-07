@@ -1,4 +1,4 @@
-import Accommodation from "../models/Accommodation.js";
+import Accommodation from "../models/Accomodation.js";
 
 // Fetch all accommodations
 export const getAccommodations = async (req, res) => {
