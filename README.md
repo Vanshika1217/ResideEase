@@ -1,5 +1,9 @@
 # **ResideEase - Accommodation Booking Platform**
 
+
+https://github.com/user-attachments/assets/4d322937-7b6a-4e7e-9339-eaafd76d3af1
+
+
 **ResideEase** is a full-stack Progressive Web App (PWA) designed for booking accommodations such as hotels, PGs (Paying Guests), and flats. The platform features two distinct user roles—**Admin** and **User**—and integrates various advanced functionalities including real-time chat, payment gateway, QR code-based check-in/check-out, and downloadable PDF receipts.
 
 ## **Features**
