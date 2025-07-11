@@ -2,7 +2,10 @@
 ### 🚀 Live Demo: [https://reside-ease-accomodation-platform-y.vercel.app/](https://reside-ease-accomodation-platform-y.vercel.app/)
 
 
-https://github.com/user-attachments/assets/9d495a19-da29-4109-9fcb-260363805b6c
+
+
+https://github.com/user-attachments/assets/26e47b3e-e6ec-4a0e-ae48-f983a35ae02f
+
 
 
 
